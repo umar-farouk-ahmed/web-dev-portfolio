@@ -125,13 +125,16 @@ nav ul li a{
 .skills-description{
     text-align: center;
     color: #757575;
-    max-width: 909px;
+    max-width:909px;
+    height: 120px;
     font-size: 18px;
     font-weight: 400;
+    padding-left: 345px;
+    padding-right: 346px;
 }
 .skills-container{
     display: flex;
-    margin-top: 60px;
+    margin-top: 90px;
     gap: 24px;
 }
 .skill{
@@ -155,4 +158,48 @@ nav ul li a{
 main{
     max-width: 1140px;
     margin: 0px auto;
+}
+/* * Resume Section Design * */
+.resume hr{
+    margin: 30px 0px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.experience-title{
+    color: rgba(71, 71, 71, 1);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.experience-subtitle{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.cv-button{
+    text-align: center;
+    margin-top: 50px;
 }
