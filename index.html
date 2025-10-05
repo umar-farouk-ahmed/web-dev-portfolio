@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<!-- If you want to keep a specific font to the whole page add the class to the body -->
+<!-- *If you want to keep a specific font to the whole page add the class to the body * -->
 <body class="open-sans-normal"> 
     <header class="header secondary-bg" >
         <nav>
-            <!-- if you want to edit a single alphabet in a word use span. Add a class for css .  -->
-             <!-- for nav bar use ul -> li -> anchor tag  -->
+            <!-- *if you want to edit a single alphabet in a word use span. Add a class for css . * -->
+            <!-- * for nav bar use ul -> li -> anchor tag * -->
             <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
             <ul>
                 <li><a class="dark-2" href="">Portfolio</a></li>
@@ -149,8 +149,25 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer secondary-bg">
+        <div class="footer-column">
+            <h3 class="section-title">Lets Connect</h3>
+            <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href="https://www.facebook.com/"><img src="/images/icons/facebook.png" alt=""></a>
+                <a href="https://x.com/"><img src="/images/icons/twitter.png" alt=""></a>
+                <a href="http://www.instagram.com/"><img src="/images/icons/insta.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Let’s Message me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name:">
+                <input type="email" name="" id="" placeholder="Your Mail:">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
     </footer>
 </body>
 </html>

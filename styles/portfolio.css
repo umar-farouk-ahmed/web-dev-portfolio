@@ -7,7 +7,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* shared style */
+/* * shared style * */
 .text-primary{
     color: #FD6E0A;
 }
@@ -15,7 +15,7 @@
     color: #474747;
 }
 .secondary-bg{
-    color: #eec8ad;
+    background-color:  #f9e4d5;
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -32,7 +32,7 @@
 }
 nav{
     display: flex;
-    /* align-items center makes all items in a line  */
+    /* * align-items center makes all items in a line  * */
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
@@ -202,4 +202,25 @@ main{
 .cv-button{
     text-align: center;
     margin-top: 50px;
+}
+/* *footer Styles* */
+.footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    margin-top: 90px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer input[type="text"] , .footer input[type="email"] , .footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
